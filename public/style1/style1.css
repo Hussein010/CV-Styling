@@ -42,13 +42,13 @@ body{
     position:absolute;
     top: 0;
     right: 0;
-    margin-right: 30%;
-
+   margin-right: 20%;
 }
 .contact{
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 8px;
+    
 }
 a{
     text-decoration: none;
@@ -195,7 +195,7 @@ dd{
     background-color: white;
 }
 .contact-skype .contact-value{
-    color: black;
+    color: black;   
 }
 }
 
