@@ -1,0 +1,201 @@
+header{
+    width: 100%;
+    background-color: grey;
+    display: flex;
+}
+header div{
+display: flex;
+margin-left: 15%;
+}
+header, hgroup{
+    color: red;
+}
+.content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 20px;
+    width: 80%;
+    margin: 40px auto 0 auto;
+}
+ h3{
+    border-bottom: 1px solid gray;
+   width: 105%;
+}
+
+ h3::before{
+    content:"" ;
+    height: 20px;
+    width: 20px;
+    background-color:red;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 7px;
+}
+body{
+    margin: 0;
+}
+.contact-type{
+    color:white;
+    
+}
+#contact{
+    position:absolute;
+    top: 0;
+    right: 0;
+    margin-right: 30%;
+
+}
+.contact{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 8px;
+}
+a{
+    text-decoration: none;
+    color:red;
+}
+.contact-value{
+    color:red;
+}
+#contact h3{
+    display: none;
+}
+h4{
+    color: red;
+}
+.skill[data-skill="1"]{
+    display:block;
+    background-color: grey;
+    width: 100%;
+    padding: 6px;
+    opacity: 70%;
+    margin-bottom: 10px;
+
+}
+.skill[data-skill="1"] span{
+    display: block;
+    width: 10%;
+    background-color: red;
+    color: white;    
+}
+.skill[data-skill="3"]{
+    display:block;
+    background-color: grey;
+    width: 100%;
+    padding: 6px;
+    opacity: 70%;
+    margin-bottom: 10px;
+}
+.skill[data-skill="3"] span{
+    display: block;
+    width: 30%;
+    background-color: red;
+    color: white;  
+}
+.skill[data-skill="5"]{
+    display:block;
+    background-color: grey;
+    width: 100%;
+    padding: 6px;
+    opacity: 70%;
+    margin-bottom: 10px;
+
+}
+.skill[data-skill="5"] span{
+    display: block;
+    width: 50%;
+    background-color: red; 
+    color: white;   
+}
+.skill[data-skill="9"]{
+    display:block;
+    background-color: grey;
+    width: 100%;
+    padding: 6px;
+    opacity: 70%;
+    margin-bottom: 10px;
+
+
+}
+.skill[data-skill="9"] span{
+    display: block;
+    width: 90%;
+    background-color: red;
+    color: white;    
+}
+.skill[data-skill="7"]{
+    display:block;
+    background-color: grey;
+    width: 100%;
+    padding: 6px;
+    opacity: 70%;
+    margin-bottom: 10px;
+}
+.skill[data-skill="7"] span{
+    display: block;
+    width: 70%;
+    background-color: red;    
+    color: white;
+}
+.skill span{
+    line-height: 30px;
+    margin: 0;
+}
+.experience-institution{
+    font-weight: 100;
+}
+.experience-institution::before{
+    content: "@";
+}
+.experience-details{
+    opacity: 60%;
+}    
+.experience-date-separator{
+    color: red;
+}
+dt{
+    background-color: red;
+    height: 34px;
+}
+dd{
+    background-color: black;
+    height: 34px;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+.content{
+    display: grid;
+    grid-template-columns: 100%;
+}
+header div{
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+#contact{
+    position: relative;
+}
+.contact .contact-type{
+    background-color: red;
+    float: right;
+    width: 100%;
+    
+}
+.contact{
+    display: grid;
+    grid-template-rows: 20px;
+}
+#contact h3{
+    display: ruby;
+}
+dt{
+    height: 36px;
+}
+dd{
+    background-color: white;
+}
+.contact-skype .contact-value{
+    color: black;
+}
+}
+
